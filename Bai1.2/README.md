@@ -1,5 +1,3 @@
-# 22024559 Lê Hoàng Linh
-
 ## Kết quả bài 1.2
 ### 1. Thêm khóa học
 ![alt](Add1.png)
