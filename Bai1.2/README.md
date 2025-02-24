@@ -1,6 +1,4 @@
-# 22024559 Lê Hoàng Linh
-
-## Kết quả bài 1.2
+## Kết quả bài 1.2 Spring MVC CRUD with Example
 ### 1. Thêm khóa học
 ![alt](Add1.png)
 ![alt](Add2.png)
