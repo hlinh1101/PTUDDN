@@ -4,7 +4,7 @@
 ### 1. Đăng nhập
 ![alt](src/main/resources/sw2.png)
 ### 2. Nhập sai thông tin
-![alt](src/main/resources/\sw3.png)
+![alt](src/main/resources/sw3.png)
 ### 3. Đăng nhập thành công
 ![alt](src/main/resources/sw4.png)
 ![alt](src/main/resources/sw6.png)
