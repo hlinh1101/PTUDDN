@@ -1,6 +1,6 @@
 ## Kết quả bài 2 Securing a Web Application
 
-![alt](PTUDDN\Bai2\securingweb\src\main\resources\sw1.png)
+![alt](sw1.png)
 ### 1. Đăng nhập
 ![alt](PTUDDN\Bai2\securingweb\src\main\resources\sw2.png)
 ### 2. Nhập sai thông tin
