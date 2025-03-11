@@ -1,0 +1,29 @@
+server:
+  port: 3000
+
+logging:
+  level:
+    root: ERROR
+    org.springframework.web: ERROR
+    com.auth0.example: TRACE
+
+okta:
+  oauth2:
+    issuer: https://dev-ey4jtba0bgl8w1h4.us.auth0.com/
+    client-id: ylMS1eAru3V3S1hoelaY4dOToLZ7NdZH
+    client-secret: wsdNsj1Zgr9Q0HfiSLhezWjMW2agWRGay__74IAC_cxqPGpd_YKfND54lbAaFdK9
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          auth0:
+            client-id: ylMS1eAru3V3S1hoelaY4dOToLZ7NdZH
+            client-secret: wsdNsj1Zgr9Q0HfiSLhezWjMW2agWRGay__74IAC_cxqPGpd_YKfND54lbAaFdK9
+            scope: openid,profile,email
+            authorization-grant-type: authorization_code
+            redirect-uri: http://localhost:3000/login/oauth2/code/okta
+        provider:
+          auth0:
+            issuer-uri: https://dev-ey4jtba0bgl8w1h4.us.auth0.com/
